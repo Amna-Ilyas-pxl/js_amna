@@ -2,6 +2,7 @@ const accountId = 145666
 let accountEmail = "amna@google.com"   //mostly in use for variable is "let" datatype
 var accountPassword = "321456"
 accountCity = "Lahore"
+let accountState;
 
 // accountId = 2  // not allowed bcoz constant
 
@@ -14,5 +15,5 @@ accountEmail = "haseeb@google.com"
 accountPassword = "456321"
 accountCity = "Karachi"
 
-console.table([accountId, accountEmail, accountPassword, accountEmail])    //prints every variable mentioned at single run
+console.table([accountId, accountEmail, accountPassword, accountEmail, accountState])    //prints every variable mentioned at single run
 
