@@ -5,7 +5,9 @@
 This repository is a personal investigation and learning project where I followed along with a YouTube tutorial to understand the concepts in depth. While the base structure of the code comes from the original creator’s work, I have made improvements for clarity and personal understanding by:
 
 => Adding detailed comments in the code for better readability.
+
 => Making the code more structured and organized.
+
 => Adjusting a few parts to match my own style of learning.
 
 🎯 Purpose
