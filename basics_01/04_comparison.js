@@ -9,6 +9,7 @@
 // console.log("2" > 1);
 // console.log("02" > 1); // js automatically converts string into number
 
+
 console.log(null > 0);
 console.log(null == 0);
 console.log(null >= 0);  // value conversion
