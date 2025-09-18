@@ -9,7 +9,6 @@ console.log(3
     let isLoggedIn= false    //bolean
     let state; //undefined value // not null
 
-
  //premitive datatypes   
     //number => 2 to power 53
     // bigInt => much larger values like stocks
