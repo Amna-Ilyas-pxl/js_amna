@@ -1,4 +1,6 @@
 // there are two types of datatype
+
+
 /***************  1. primitive datatypes *******/
 // 7 types: string, number, bolean, null, undefined, symbol(used for uniqueness), BigInt(for scientific values)
 
