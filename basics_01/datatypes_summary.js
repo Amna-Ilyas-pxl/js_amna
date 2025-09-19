@@ -70,6 +70,41 @@ console.log(typeof myFunction); //it returns function but in interview it's call
 2) Non-primitive Datatypes
        Arrays  =>  object
        Function  =>  function
-       Object  =>  object */
+       Object  =>  object 
+       */
 
 
+///////////////////////////////////////////////////////////////
+
+// two types of memory: stack(primitive), heap(non-primitive)
+
+// stack memory => whenever a variable is declaired, a copy is made
+
+// hep memory: whatever is declared(non-primitive variables), we get a reference of original value
+
+// stack e.g;
+
+let myYoutubename = "AmnaIlyas"
+
+let anotherName = myYoutubename   //this makes copy of value
+ anotherName = "Amna"
+
+ console.log(myYoutubename);
+ console.log(anotherName);
+
+//  heap e.g;
+
+let userOne = {
+    email: "user@google.com",
+    upi: "usre@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "amna@google.com"   // meanwhile heap makes reference ,not copy
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+ 
