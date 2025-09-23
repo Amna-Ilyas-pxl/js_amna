@@ -4,24 +4,24 @@ const myArray = [0, 1, 2, 3, 4, 5]
 const myHeros = ["superman", "batman"]
 const myArray2 = new Array(1, 2, 3, 4)
 
-// console.log(myArray[0]);
+console.log(myArray[0]);
 
-//array methods
-// myArray.push(6)
-// myArray.push(7)
-// myArray.pop()  //last value in array will be popped
-// myArray.unshift(4)  //enters digit at start of array //if array is large then it is not optimized so it's useless but ifit;s to do list and we need to add something at first then it is fine
-// myArray.shift()  //removes first value of array
+// array methods
+myArray.push(6)
+myArray.push(7)
+myArray.pop()  //last value in array will be popped
+myArray.unshift(4)  //enters digit at start of array //if array is large then it is not optimized so it's useless but ifit;s to do list and we need to add something at first then it is fine
+myArray.shift()  //removes first value of array
 
-// console.log(myArray.includes(9));  //checks whether this array has the specific number or not
-// console.log(myArray.indexOf(17));   //checks index , if it's not available then gives answer -1
-// console.log(myArray.indexOf(3));  //and if available, gives index of it
+console.log(myArray.includes(9));  //checks whether this array has the specific number or not
+console.log(myArray.indexOf(17));   //checks index , if it's not available then gives answer -1
+console.log(myArray.indexOf(3));  //and if available, gives index of it
 
-// const newArray = myArray.join()  //converts array to string, also binds it
+const newArray = myArray.join()  //converts array to string, also binds it
 
-// console.log(myArray);
-// console.log(newArray);
-// console.log(typeof newArray); //chech whether it actually turned into string
+console.log(myArray);
+console.log(newArray);
+console.log(typeof newArray); //chech whether it actually turned into string
 
 // slice, spice (imp for interview)
 
